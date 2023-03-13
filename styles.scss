@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial;
+}
+
+
+section {
+    margin-bottom: 3rem; /* Just adding some separation between our demos */
+}
+
+.list {
+    margin: 1rem;
+
+    .list__item--strikethrough {
+        text-decoration: line-through;
+    }
+}
